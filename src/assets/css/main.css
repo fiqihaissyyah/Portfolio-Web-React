@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #737A6D;
+    color: white;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    color: white;
+}
+
+h2{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+h3 {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1C1C17;
+}
+
+h5 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    color: white;
+}
+
+h6 {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    color: white;
+}
+
+
+
+.main-content {
+    min-height: 100vh;
+    padding-top: 50px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.ant-image-preview-img-wrapper {
+    position: relative;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+a:hover {
+    color: #4C4741;
+}

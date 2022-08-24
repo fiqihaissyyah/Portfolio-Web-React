@@ -1,0 +1,12 @@
+.btn-about{
+    font-size: 20px;
+    color: white;
+}
+
+.circle{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border-width: 1px;
+    border-color: #4C4741;
+}

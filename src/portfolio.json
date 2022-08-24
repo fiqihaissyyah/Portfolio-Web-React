@@ -1,0 +1,65 @@
+{
+    "web": [
+        {
+            "id": 1,
+            "category": "Website",
+            "title": "Recipe App",
+            "technologies": "Next.js, Bootstrap",
+            "link": "https://cocktail-next-pied.vercel.app/",
+            "github": "https://github.com/fiqihaissyyah/cocktail-next",
+            "image": ["https://res.cloudinary.com/dmofv83up/image/upload/v1659974438/portfolio/porto_1_sxdtmr.jpg"],
+            "desc": "Mini project from Binar Academy to show cocktail drinks menu using next.js."
+        },
+        {
+            "id": 2,
+            "category": "Website",
+            "title": "Rent Car App",
+            "technologies": "React.js, Bootstrap",
+            "link": "https://fiqih-chapter-8.herokuapp.com/",
+            "github": "https://github.com/fiqihaissyyah/rent-car-react",
+            "image": ["https://res.cloudinary.com/dmofv83up/image/upload/v1659974438/portfolio/porto_2_rsvc9j.jpg"],
+            "desc": "Challenge from Binar Academy to combine react.js with axios to fetch data from api and use media handling."
+        },
+        {
+            "id": 3,
+            "category": "Website",
+            "title": "Market Place App",
+            "technologies": "React.js, tailwind",
+            "link": "https://thriftorzo.vercel.app/",
+            "github": "https://github.com/fiqihaissyyah/thriftorzo-react",
+            "image": ["https://res.cloudinary.com/dmofv83up/image/upload/v1659974438/portfolio/porto_3_rwywtt.jpg"],
+            "desc": "Final project at Binar Academy, team work with backend java to build a market place (online thrifting)"
+        }
+    ],
+    "design": [
+        {
+            "id": 4,
+            "category": "Design",
+            "title": "Logo",
+            "client": "Indo Instrument Technology, Himasika 2021 ",
+            "image": [
+                        "https://res.cloudinary.com/dmofv83up/image/upload/v1659974777/portfolio/logo_bph-01_taa3sq.jpg",
+                        "https://res.cloudinary.com/dmofv83up/image/upload/v1659974805/portfolio/logo_ristek-01_gkgh3w.jpg",
+                        "https://res.cloudinary.com/dmofv83up/image/upload/v1660548608/portfolio/logo_project_1_-03_tnel4v.png"
+                    ],
+            "desc": "Design Logo for Department in Himasika 2021 (slide 1-2) and Indo Instrument Technology (slide 3), work as a team."
+        },
+        {
+            "id": 5,
+            "category": "Design",
+            "title": "E-Certificate",
+            "client": "Himasika 2021, BEM FSAD 2021, Indo Instrument Technology",
+            "image": [
+                        "https://res.cloudinary.com/dmofv83up/image/upload/v1660657211/portfolio/template_sertif-02_n0gpn1.jpg",
+                        "https://res.cloudinary.com/dmofv83up/image/upload/v1660657211/portfolio/template_sertif-01_mhpcor.jpg",
+                        "https://res.cloudinary.com/dmofv83up/image/upload/v1660658926/portfolio/template_sertif_peserta-02_k2uslb.jpg",
+                        "https://res.cloudinary.com/dmofv83up/image/upload/v1660658926/portfolio/template_sertif_peserta-04_yoiyqt.jpg",
+                        "https://res.cloudinary.com/dmofv83up/image/upload/v1660659056/portfolio/sertif-01_i8wsfx.jpg"
+
+            ],
+            "desc": "Design E-certificate for events in Himasika 2021 (slide 1-2), BEM FSAD 2021 (slide 3-4), and Indo Instrument Technology (slide 5)."
+        }
+    ]
+    
+}
+   

@@ -1,0 +1,9 @@
+.resume::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    background: #1C1C17;
+}
