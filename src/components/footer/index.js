@@ -12,7 +12,7 @@ function Footer() {
                 <li className='mr-6 text-2xl'><a href='https://instagram.com/fiqihaissyyah'target='_blank'><InstagramOutlined /></a></li>
                 <li className='mr-6 text-2xl'><a href='https://www.linkedin.com/in/fiqihaissyyah'target='_blank'><LinkedinOutlined /></a></li>
             </ul>
-            <p className='text-primaryBrown'> Copyright &copy; {new Date().getFullYear()} Fiqih Aissyyah</p>
+            <p className='text-primaryBrown md:text-sm text-xs'> Copyright &copy; {new Date().getFullYear()} Fiqih Aissyyah</p>
             </div>
         </div>
     </footer>

@@ -40,19 +40,19 @@ function Navbar() {
 		<Drawer width={200} bodyStyle={{background: '#4C4741'}} headerStyle={{background: '#4C4741'}} placement="right" closeIcon={<CloseOutlined className='text-white' />} onClose={onClose} visible={visible}>
 			<ul className="h-14 text-base">
 				<li className='mb-2'>
-					<Link to='/'>Home</Link>
+					<Link to='/' className=' active:text-primaryGray'>Home</Link>
 				</li>
 				<li className='mb-2'>
-					<Link to='/about'>About</Link>
+					<Link to='/about' className=' active:text-primaryGray'>About</Link>
 				</li>
 				<li className='mb-2'>
-					<Link to='/experience'>Experience</Link>
+					<Link to='/experience' className=' active:text-primaryGray'>Experience</Link>
 				</li>
 				<li className='mb-2'>
-					<Link to='/portfolio'>Portfolio</Link>
+					<Link to='/portfolio' className=' active:text-primaryGray'>Portfolio</Link>
 				</li>
 				<li>
-					<a href="#">Contact</a>
+					<a href="mailto:fiqihaissyyah@gmail.com?subject=Contact - Fiqih Aissyyah">Contact</a>
 				</li>
 			</ul>
 		</Drawer>

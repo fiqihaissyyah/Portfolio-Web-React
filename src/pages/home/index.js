@@ -29,12 +29,12 @@ function Home() {
             exit = {{y: '100%', transition: {duration: 1} }}
         >
 			<Navbar/>
-            <Row className='content-center py-4'>
+            <Row className='content-center md:pt-4 pt-6 md:pb-4 pb-10 '>
                 <Col sm={{ span: 24 }} lg={{ span: 12 }}>
                     <div className='relative text-center' >
-                        <img  src={profil1} data-aos="fade-right"  className='z-10 absolute -left-1 -bottom-7 md:w-[187px] w-[130px]'  />
-                        <img src={bg} width={350} height={550} className='z-0 relative mx-auto md:w-[350px] w-[300px]' />
-                        <img src={profil2} data-aos="fade-left" className='z-10 absolute md:w-[187px] w-[130px] top-[30%] md:right-[2%] right-[10%]'  />
+                        <img  src={profil1} data-aos="fade-right"  className='z-10 absolute md:-left-1 -left-[5%] -bottom-7 md:w-[187px] w-[130px]'  />
+                        <img src={bg} width={350} height={550} className='z-0 relative md:mx-auto ml-[5%] md:w-[350px] w-[300px]' />
+                        <img src={profil2} data-aos="fade-left" className='z-10 absolute md:w-[187px] w-[130px] top-[30%] md:right-[2%] -right-[10%]'  />
                     </div>
                 </Col>
                 <Col sm={{ span: 24 }} lg={{ span: 12 }} className='text-center flex items-center md:justify-end md:pt-0 pt-10'>
