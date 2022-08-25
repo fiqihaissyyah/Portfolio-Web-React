@@ -48,7 +48,7 @@
 
 @media screen and (max-width: 767px) {
 	.slider-product {
-		@apply mt-0 mx-[-1rem] mb-[-40px];
+		@apply mb-[-40px];
 	}
 
 	.slider-product .swiper {
@@ -69,6 +69,6 @@
 	}
 
 	.slider-product .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-		@apply bg-white;
+		@apply bg-primaryGreen;
 	}
 }

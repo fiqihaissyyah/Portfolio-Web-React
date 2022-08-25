@@ -21,9 +21,7 @@ function Detail() {
 			</Helmet>
             <Row>
                 <Col sm={{ span: 24 }} lg={{ span: 12 }}>
-                    <div>
-                        <Slider item={detail.image}/>
-                    </div>
+                        <Slider item={detail.image} className='md:p-0 px-[10%]'/>
                 </Col>
                 <Col sm={{ span: 24 }} lg={{ span: 10, offset: 2 }}>
                     <h2 className='md:pt-0 pt-20 pb-2 border-b w-[50%] border-primaryBrown'>Portfolio Information</h2>
