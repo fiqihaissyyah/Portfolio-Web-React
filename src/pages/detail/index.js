@@ -27,14 +27,14 @@ function Detail() {
                     <h2 className='md:pt-0 pt-20 pb-2 border-b w-[50%] border-primaryBrown'>Portfolio Information</h2>
                     <div className='mt-6'>
                         <h2>{detail.title}</h2>
-                        <div className='py-6 whitespace-pre'>
-                            <p>Category:        {detail.category}</p>
-                            <p>Link:
+                        <ul className='py-6 md:text-base text-sm'>
+                            <li><strong>Category:</strong> {detail.category}</li>
+                            <li><strong>Link:</strong>
                                 <a href={detail.link} target='_blank'> {detail.link}</a>
-                            </p>
-                            <p>Technologies:    {detail.technologies}</p>
-                        </div>
-                        <p>{detail.desc} </p>               
+                            </li>
+                            <li><strong>Technologies:</strong> {detail.technologies}</li>
+                        </ul>
+                        <p className='md:text-base text-sm'>{detail.desc} </p>               
                     </div>
                 </Col>
             </Row>

@@ -54,10 +54,10 @@ function Portfolio() {
                                 <div className='p-4 flex justify-between items-center'>
                                     <h4>{i.title}</h4>
                                     <div className='icon'>
-                                        <Link to={{ pathname: `/detail/web/${i.id}` }}>
+                                        <Link to={{ pathname: `/detail/web/${i.id}` }} title='Details'>
                                             <PlusOutlined className='pr-4' />
                                         </Link>
-                                        <a href={i.github} target='_blank'>
+                                        <a href={i.github} target='_blank' title='Github'>
                                             <GithubOutlined />
                                         </a>
                                     </div>
@@ -73,7 +73,7 @@ function Portfolio() {
                                     <div className='px-4 pt-4 '>
                                         <Image src={i.image[0]} height={'250px'} width={'100%'} className='object-cover'/>
                                     </div>
-                                    <Link to={{ pathname: `/detail/design/${i.id}` }}>
+                                    <Link to={{ pathname: `/detail/design/${i.id}` }} title='Details'>
                                     <div className='p-4 flex justify-between h-[69.5px]'>
                                         <h4>{i.title}</h4>
                                     </div>

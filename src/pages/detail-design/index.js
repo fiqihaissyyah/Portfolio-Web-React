@@ -31,11 +31,11 @@ function DetailDesign() {
                 <h2 className='md:pt-0 pt-20 pb-2 border-b w-[50%] border-primaryBrown'>Portfolio Information</h2>
                 <div className='mt-6'>
                     <h2>{detail.title}</h2>
-                    <div className='py-6 whitespace-pre'>
-                        <p>Category:        {detail.category}</p>
-                        <p>Client:    {detail.client}</p>
+                    <div className='py-6 md:text-base text-sm'>
+                        <p><strong>Category:</strong> {detail.category}</p>
+                        <p><strong>Client:</strong> {detail.client}</p>
                     </div>
-                    <p>{detail.desc} </p>               
+                    <p className='md:text-base text-sm'>{detail.desc} </p>               
                 </div>
             </Col>
         </Row>

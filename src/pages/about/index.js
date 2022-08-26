@@ -60,8 +60,8 @@ function About() {
 				</p>
 				<p className='text-2xl mt-16'>Here are software and technologies i’ve been working recently</p>
 				<div className='mt-20'>
-					<Row justify="space-between" className='mb-10'>
-						<Col sm={{ span: 12 }} lg={{ span: 4 }} className='flex justify-center items-center text-center'>
+					<Row justify="space-between" className='md:mb-10 mb-0'>
+						<Col sm={{ span: 12 }} lg={{ span: 4 }} className='flex justify-center items-center text-center md:mb-0 mb-5'>
 							<div>
 								<div className='circle flex justify-center items-center mb-2'>
 									<img src={ai} alt='adobe illustrator' />
@@ -69,7 +69,7 @@ function About() {
 								<span>Adobe Illustrator</span>
 							</div>
 						</Col>
-						<Col sm={{ span: 12 }} lg={{ span: 4 }} className='flex justify-center items-center text-center'>
+						<Col sm={{ span: 12 }} lg={{ span: 4 }} className='flex justify-center items-center text-center md:mb-0 mb-5'>
 							<div>
 								<div className='circle flex justify-center items-center mb-2'>
 									<img src={html} alt='html' />
@@ -77,7 +77,7 @@ function About() {
 								<span>HTML 5</span>
 							</div>
 						</Col>
-						<Col sm={{ span: 12 }} lg={{ span: 4 }} className='flex justify-center items-center text-center'>
+						<Col sm={{ span: 12 }} lg={{ span: 4 }} className='flex justify-center items-center text-center md:mb-0 mb-5'>
 							<div>
 								<div className='circle flex justify-center items-center mb-2'>
 									<img src={css} alt='Css' />
@@ -85,7 +85,7 @@ function About() {
 								<span>CSS</span>
 							</div>
 						</Col>
-						<Col sm={{ span: 12 }} lg={{ span: 4 }} className='flex justify-center items-center text-center'>
+						<Col sm={{ span: 12 }} lg={{ span: 4 }} className='flex justify-center items-center text-center md:mb-0 mb-5'>
 							<div>
 								<div className='circle flex justify-center items-center mb-2'>
 									<img src={js} alt='Java Script' />
@@ -95,7 +95,7 @@ function About() {
 						</Col>
 					</Row>
 					<Row justify="space-between">
-						<Col sm={{ span: 12 }} lg={{ span: 4 }} className='flex justify-center items-center text-center'>
+						<Col sm={{ span: 12 }} lg={{ span: 4 }} className='flex justify-center items-center text-center md:mb-0 mb-5'>
 							<div>
 								<div className='circle flex justify-center items-center mb-2'>
 									<img src={react} alt='react.js' />
@@ -103,7 +103,7 @@ function About() {
 								<span>React.js</span>
 							</div>
 						</Col>
-						<Col sm={{ span: 12 }} lg={{ span: 4 }} className='flex justify-center items-center text-center'>
+						<Col sm={{ span: 12 }} lg={{ span: 4 }} className='flex justify-center items-center text-center md:mb-0 mb-5'>
 							<div>
 								<div className='circle flex justify-center items-center mb-2'>
 									<img src={bootstrap} alt='bootstrap' />
